@@ -10,7 +10,7 @@ interface Task {
   isCompleted: boolean;
 }
 
-export default function LT() {
+export default function Task() {
   const [editId, setEditId] = useState<string | number | null>(null);
   const [task, setTask] = useState<string>("");
   const [count, setCount] = useState<number>(0);
